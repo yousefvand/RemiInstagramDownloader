@@ -1,0 +1,19 @@
+# Generated extension/source archives (including pack.sh output)
+*.zip
+
+# Local build staging and test output
+.remi-pack.*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+playwright-report/
+test-results/
+node_modules/
+
+# Editor / OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
